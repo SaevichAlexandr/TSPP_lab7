@@ -115,13 +115,32 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="DeansOffice.h" />
+    <ClInclude Include="Mark.h" />
+    <ClInclude Include="Methodist.h" />
+    <ClInclude Include="Performance.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="Studient.h" />
+    <ClInclude Include="Studient_test.h" />
+    <ClInclude Include="Subject.h" />
+    <ClInclude Include="Teacher.h" />
+    <ClInclude Include="User.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="TSPP_lab7.rc" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="DeansOffice.cpp" />
+    <ClCompile Include="Mark.cpp" />
+    <ClCompile Include="Methodist.cpp" />
+    <ClCompile Include="Perfomance.cpp" />
+    <ClCompile Include="Performance.cpp" />
     <ClCompile Include="Source1.cpp" />
+    <ClCompile Include="Studient.cpp" />
+    <ClCompile Include="Studient_test.cpp" />
+    <ClCompile Include="Subject.cpp" />
+    <ClCompile Include="Teacher.cpp" />
+    <ClCompile Include="User.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
